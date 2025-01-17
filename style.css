@@ -3,3 +3,28 @@ table, th, td {
     border-spacing: 3px;
     padding: 3px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Arial';
+    background-image: url("background.jpeg");
+    background-repeat: repeat;
+}
+
+#Haiku {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    float: right;
+}
+
