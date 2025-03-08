@@ -1,30 +1,73 @@
-table, th, td {
-    border: 1px solid black;
-    border-spacing: 3px;
-    padding: 3px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 body {
-    font-family: 'Arial';
-    background-image: url("background.jpeg");
-    background-repeat: repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
 
-#Haiku {
-    width: 50%;
-    margin: 0 auto;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(135deg, #131924, #2a5298); 
+    color: white;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+section {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); 
+}
+
+footer {
     text-align: center;
+    padding: 1rem;
+    background: linear-gradient(135deg, #96aacc, #1e3c72);
+    color: white;
 }
 
-img {
-    float: right;
-}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    nav ul {
+        flex-direction: column;
+    }
+}

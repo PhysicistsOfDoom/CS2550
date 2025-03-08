@@ -3,164 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Corbin Thomas</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>Hockey Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="content">
-        <header>
-            <h1>Corbin Thomas Beus</h1>
-            <img src="MePicture.jpg" alt="Picture of me" width="250">
-        </header>
-
-        <hr>
-
-        <!-- Personal Info section -->
-        <section>
-            <h2>Personal Info</h2>
+    <header>
+        <img src="/images/UHC.png" alt="Logo">
+        <h1>Utah Hockey Club</h1>
+        <nav>
             <ul>
-                <li><strong>Major: </strong> Computer Science, Secure Computing</li>
-                <li><strong>High School: </strong>Lone Peak, Highland, UT. 2021</li>
-                <li><strong>Current year at UVU: </strong>Sophomore</li>
-                <li><strong>Favorite ice cream: </strong>Butter Pecan</li>
+                <li><a href="#" data-section="Vejmelkla">Vejmelka</a></li>
+                <li><a href="#" data-section="Cooley">Cooley</a></li>
+                <li><a href="#" data-section="Keller">Keller</a></li>
             </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Vejmelkla">
+            <h2>Karel Vejmelka</h2>
+            <p>This is Karel Vejmelka, He is the best Goalie we have.</p>
+            <figure>
+                <img src="/images/HOCKEy.png" alt="Karel Vejmelkla Hockey Player">
+                <figcaption>Karel Vejmelka #70</figcaption>
+            </figure>
         </section>
 
-        <hr>
-
-        <!-- Favorite novels section -->
-        <section>
-            <h2>My five favorite books</h2>
-            <ol>
-                <li><i>Crime & Punishment, </i><a href="https://www.britannica.com/biography/Fyodor-Dostoyevsky">Fyodor Dostoevsky</a></li>
-                <li><i>Light Falls, </i><a href="https://www.briangreene.org/">Brian Greene</a></li>
-                <li><i>The Brothers Karamazov, </i><a href="https://www.britannica.com/biography/Fyodor-Dostoyevsky">Fyodor Dostoevsky</a></li>
-                <li><i>The Fabric of the Cosmos, </i><a href="https://www.briangreene.org/">Brian Greene</a></li>
-                <li><i>Until the End of Time, </i><a href="https://www.briangreene.org/">Brian Greene</a></li>
-            </ol>
+        <section id="Cooley" style="display:none;">
+            <h2>Logan Cooley</h2>
+            <p>Logan Cooley is an incredible Forwards player, He is my personal favorite</p>
+            <figure>
+                <img src="/images/Cooley.png" alt="Cooley Hockey Player">
+                <figcaption>Clayton Keller #9</figcaption>
+            </figure>
         </section>
 
-        <hr>
-
-        <!-- Haiku section -->
-        <section id="Haiku">
-            <h2>My Haiku</h2>
-            <p>Haiku directed towards the NFL:</p>
-            <div class="haiku-paragraph">
-                <p>
-                    <i>Chiefs, you've had your reign.</i><br>
-                    <i>Lions arise, It's our compaign. </i><br>
-                    <i>Step aside, we win the game. </i><br>
-                </p>
-            </div>
+        <section id="Keller" style="display:none;">
+            <h2>Clayton Keller</h2>
+            <p>Clayton Keller is the Captain and he is most everyones favorite</p>
+            <figure>
+                <img src="/images/Keller.png" alt="Keller Hockey Player">
+                <figcaption>Clayton Keller #9</figcaption>
+            </figure>
         </section>
+    </main>
 
-        <hr>
+    <!-- Footer -->
+    <footer>
+        <p>Copyright, Corbin Beus</p>
+    </footer>
 
-        <!-- Personal interests section -->
-        <section>
-            <h2>Personal Interests</h2>
-            <p>
-                I enjoy Ice Hockey and love to develop anything in vim. I have found that during the computer science degree,
-                that vim is an absolutely incredible editor (when configured correctly). Nonetheless, I also love to work in visual studio code. <br>
-            </p>
-            <p>
-                I also enjoy the gym drastically. I have found that during adulthood, it's important to stay awake and have lots of
-                energy. And I utterly refuse solve that problem by drinking coffee with sugar, the gym is also a mental clarity. <br>
-            </p>
-            <p>
-                Lastly, I enjoy Barbaquing and making crazy projects. For example, I am hoping to work on an arduino garden watering system.
-                This system is obviously time consuming and only per season, so I hope to figure this out this season or next.
-            </p>
-        </section>
-
-        <hr>
-
-        <!-- Schedule Section -->
-        <section>
-            <h2>Class Schedule</h2>
-                <table>
-                    <tr class="table-header">
-                        <th></th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                    </tr>
-                    <tr>
-                        <th>1:00</th>
-                        <td rowspan="3" class="networking">CS 2600</td>
-                        <td></td>
-                        <td rowspan="3" class="networking">CS 2600</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>1:30</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>2:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-
-                    </tr>
-                    <tr>
-                        <th>2:30</th>
-                        <td rowspan="3" class="cpp-programming">CS 2370</td>
-                        <td></td>
-                        <td rowspan="3" class="cpp-programming">CS 2370</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>3:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>3:30</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>4:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
-        </section>
-
-        <hr>
-
-        <!-- Grading Section -->
-        <section>
-            <p> 
-                <strong>--SELF GRADE--</strong><br>
-                BODY        A <br>
-                NAME        A <br>
-                PORTRAIT    A <br>
-                HEADINGS    A <br>
-                SCHEDULE    B <br><br>
-                
-                --EXTRA CREDIT COMPLETED-- <br>
-                FLOATING DIV (5pts)    NO <br>
-                STRIPED TABLE (5pts)   NO <br>
-                MODAL PORTRAIT (10pts) NO <br>
-                ARTISTIC MERIT (10pts) NO (Add description of what you did) <br>
-                ADDITIONAL COMMENTS  
-            </p>
-        </section>
-    </div>
-
+    <!-- The JS script-->
+    <script src="script.js"></script>
 </body>
 </html>
